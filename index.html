@@ -8,7 +8,7 @@
         body {
             font-family: Arial, sans-serif;
             background-color: cream;
-            color: #ABD7EE; /* Updated primary color to light blue */
+            color: #000; /* Black text for body */
             margin: 0;
             padding: 0;
         }
@@ -38,14 +38,15 @@
             padding: 20px;
         }
 
+        section img {
+            max-width: 100%; /* Make sure the images fit within the section */
+        }
+
         footer {
             background-color: #ABD7EE; /* Updated footer background color */
-            color: cream;
+            color: #fff; /* White text for address and copyright */
             text-align: center;
-            padding: 10px;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
+            padding: 20px; /* Added padding for better visibility */
         }
     </style>
 </head>
@@ -67,6 +68,7 @@
         <h2>Bienvenido a Ciocolatto Pop Bar</h2>
         <p>Su destino para deliciosos helados y postres en Barranquilla, Colombia.</p>
         <!-- Add more content about your business here -->
+        <img src="https://d1gup81n3r8p82.cloudfront.net/eyJidWNrZXQiOiJtZW51YXBwczMiLCJrZXkiOiJyZXN0YXVyYW50cy9tZW51LWNhdGVnb3JpZXMvNjQvN0pjTm1NeGNSdUY3c1g0VjF6ZThRRS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDAsImZpdCI6ImNvdmVyIn19fQ==" alt="Ciocolatto Pop Bar Image">
     </section>
     
     <section id="menu">
@@ -87,13 +89,10 @@
     <section id="policies">
         <h2>Políticas</h2>
         <h3>Política de Privacidad</h3>
-        <p>Respetamos su privacidad y protegemos sus datos personales. Para obtener más información sobre cómo recopilamos, utilizamos y protegemos sus datos, consulte nuestra <a href="#privacy-policy">Política de Privacidad</a>.</p>
+        <p>Nuestra Política de Privacidad describe cómo recopilamos, utilizamos y protegemos sus datos personales. Respetamos su privacidad y estamos comprometidos a proteger sus datos. Para obtener más información, consulte nuestra <a href="#privacy-policy">Política de Privacidad</a>.</p>
 
         <h3>Política de Calidad</h3>
         <p>Nuestro compromiso es proporcionar productos de alta calidad y servicios excepcionales. Si no está satisfecho con su experiencia, comuníquese con nosotros y haremos todo lo posible para resolver cualquier problema.</p>
-
-        <h3>Política de Devoluciones</h3>
-        <p>Aceptamos devoluciones dentro de los 7 días posteriores a la compra. Los productos deben estar en su estado original y con el comprobante de compra. Para obtener más detalles, consulte nuestra <a href="#return-policy">Política de Devoluciones</a>.</p>
 
         <h3>Política de Contenido</h3>
         <p>Nos comprometemos a proporcionar contenido seguro y apropiado en nuestro sitio web y redes sociales. No toleramos contenido ofensivo, discriminatorio o inapropiado. Si encuentra algún contenido inadecuado, informe de inmediato a nuestro equipo.</p>
@@ -101,13 +100,11 @@
         <!-- Add more policies as needed -->
 
         <h3 id="privacy-policy">Política de Privacidad</h3>
-        <p>Aquí puede encontrar nuestra <a href="#">Política de Privacidad</a> detallada.</p>
-
-        <h3 id="return-policy">Política de Devoluciones</h3>
-        <p>Para obtener más información sobre nuestra <a href="#">Política de Devoluciones</a>, visite la página correspondiente.</p>
+        <p>Para obtener más detalles, lea nuestra <a href="#">Política de Privacidad</a> completa.</p>
     </section>
     
     <footer>
+        <p>Dirección: Carrera 51b # 82 - 21</p> <!-- Updated address in the footer -->
         <p>&copy; iNGAF S.A.S | Todos los derechos reservados</p>
     </footer>
 </body>
